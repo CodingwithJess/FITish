@@ -17,13 +17,21 @@ body {
 }
 
 nav {
-  background-color: #5793fd;
+  background-color:#010505 ;
   text-align: center;
-  color: #ffffff;
-  height: 80px;
+  color:#c9e266;
+  height: 60px;
   padding: 10px;
   line-height: 3;
-  font-size: 1.2rem;
+  font-size: 1.1 rem;
+}
+
+.ui.positive.button{
+  background-color: #ee65c2;
+}
+
+.ui.blue.button{
+  background-color: #b2f4f7;
 }
 
 a,
@@ -32,17 +40,10 @@ a:active,
 a:visited {
   text-decoration: none;
   color: inherit;
-}
-
-header {
-  height: 150px;
-  padding-top: 80px;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-header h1 {
-  transform: skewX(-2deg);
+  border: 1px solid #c9e266;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px;
 }
 
 select {
@@ -97,8 +98,20 @@ input {
 }
 
 .wrapper {
-  background-color: #f2f8ff;
-  padding-bottom: 100px;
+  background-image: url(../img/FITish-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo{
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  opacity: .93;
+}
+
+.header{
+text-align: center;
+
 }
 
 .card.m-auto,
@@ -153,6 +166,7 @@ button {
   border: none;
   cursor: pointer;
   font-size: 1rem;
+  text-align: center;
   border-radius: 6px;
   border: 1px solid #aaa;
   padding: 10px;
