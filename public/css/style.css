@@ -34,6 +34,11 @@ nav {
   background-color: #b2f4f7;
 }
 
+.dash{
+  background-color: #e5e5e5;
+  border-radius: 12px;
+}
+
 a,
 a:hover,
 a:active,
