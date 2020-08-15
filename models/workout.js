@@ -21,10 +21,18 @@ const WorkoutSchema = new Schema(
           type: Number,
           required: true,
         },
-        weight: Number,
-        sets: Number,
-        reps: Number,
-        distance: Number,
+        weight: {
+          type: Number,
+        },
+        reps: {
+          type: Number,
+        },
+        sets: {
+          type: Number,
+        },
+        distance: {
+          type: Number,
+        },
       },
     ],
   },
