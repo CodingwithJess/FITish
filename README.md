@@ -29,7 +29,7 @@
   Please contact me on GitHub to contribute.
 
   ## Images of deployed site
-![FITish](public/img/FITish Preview.png?raw=true "FITish")
+![FITish](public/img/FITishPreview.png?raw=true "FITish")
   
   ## Questions?
   https://github.com/CodingwithJess
