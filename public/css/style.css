@@ -14,29 +14,35 @@ body,
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(../img/FITish-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav {
-  background-color:#010505 ;
+  background-color: #010505;
   text-align: center;
-  color:#c9e266;
+  color: #c9e266;
   height: 60px;
   padding: 10px;
   line-height: 3;
   font-size: 1.1 rem;
 }
 
-.ui.positive.button{
+.ui.positive.button {
   background-color: #ee65c2;
 }
 
-.ui.blue.button{
+.ui.blue.button {
   background-color: #b2f4f7;
 }
 
-.dash{
-  background-color: #e5e5e5;
+.dash {
+  background-color: #ffffff;
+  opacity: .95;
   border-radius: 12px;
+  padding: 10px;
+  margin: 15px;
 }
 
 a,
@@ -78,7 +84,6 @@ select:hover {
 
 select:focus {
   border-color: #aaa;
-  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
   box-shadow: 0 0 0 3px -moz-mac-focusring;
   color: #222;
   outline: none;
@@ -103,20 +108,19 @@ input {
 }
 
 .wrapper {
-  background-image: url(../img/FITish-background.jpg);
+  /* background-image: url(../img/FITish-background.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
-.logo{
+.logo {
   width: 100%;
   max-width: 450px;
   height: auto;
-  opacity: .93;
+  opacity: 0.93;
 }
 
-.header{
-text-align: center;
-
+.header {
+  text-align: center;
 }
 
 .card.m-auto,
