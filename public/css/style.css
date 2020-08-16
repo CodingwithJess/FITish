@@ -29,6 +29,9 @@ nav {
   font-size: 1.1 rem;
 }
 
+.exercise{
+  height:100%
+}
 .ui.positive.button {
   background-color: #ee65c2;
 }
@@ -107,11 +110,6 @@ input {
   background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
 }
 
-.wrapper {
-  /* background-image: url(../img/FITish-background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; */
-}
 .logo {
   width: 100%;
   max-width: 450px;
@@ -119,7 +117,7 @@ input {
   opacity: 0.93;
 }
 
-.header {
+.header, h2 {
   text-align: center;
 }
 
@@ -156,7 +154,7 @@ form::after {
   display: none !important;
 }
 
-.exercise .ui.card {
+.ui.card {
   width: 400px;
   max-width: 600px;
 }
@@ -226,7 +224,7 @@ form > button {
 
 form::after {
   content: " ";
-  display: block;
+  /* display: block; */
   clear: both;
 }
 
